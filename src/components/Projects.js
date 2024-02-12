@@ -11,7 +11,7 @@ const Work = () => {
           <div className="h-[2px] w-[200px] bg-gradient-to-r  from-primary to-standout"></div>
         </div>
       </div>
-      <div className="flex flex-col sm:flex-row gap-6 sm:gap-3">
+      <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 sm:gap-3">
         {projects.map((project) => {
           return (
             <div key={project.name} className="shadow-xl px-5 py-2 grow">

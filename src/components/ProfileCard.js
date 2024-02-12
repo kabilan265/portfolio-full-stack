@@ -73,10 +73,14 @@ const ProfileCard = () => {
               <div className="font-semibold text-xs">Chennai, India</div>
             </div>
           </div>
-          <button className="bg-gradient-to-r text-center block m-auto text-sm from-primary to-standout text-white p-2 px-3 rounded-full">
+          <a
+            href="https://drive.google.com/file/d/1sOyG5nCTPHIZriymfk1DmH3EvhiIg_wB/view?usp=drive_link"
+            target="_blank"
+            className="bg-gradient-to-r text-center block m-auto text-sm from-primary to-standout text-white p-2 px-3 rounded-full"
+          >
             <FontAwesomeIcon icon={faDownload} color="#fff" />
             <span className="ml-3">Download Resume</span>
-          </button>
+          </a>
         </div>
       </div>
     </section>
